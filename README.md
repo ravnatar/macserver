@@ -35,3 +35,5 @@ docker run -d -p 5000:5000 macserver:latest
 
 docker ps
 
+The docker image build is in: https://hub.docker.com/repository/docker/ravnatar/macserver
+
