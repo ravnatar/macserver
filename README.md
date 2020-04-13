@@ -3,7 +3,7 @@
 Python modules needed: Flask
 
 macServer.py 
-  Is the server which is implemented in Python and uses the Flask WebApplication framework. It implementes a local simple data dictionary of mac address and company names. It looks up this dict to get the info for the input mac address. The server entertains only SSL requests. share the cert.pem with the client applications. (key.pem is not to be shared)
+  Is the server which is implemented in Python and uses the Flask WebApplication framework. It implementes a local simple data dictionary of mac address and company names. It looks up this dict to get the info for the input mac address. While in the real world, it is ideal to look up in the LDAP server/or a DB. The server entertains only SSL requests. Share the cert.pem with the client applications. (key.pem is private key and not to be shared)
 
 
 How to start this server by typing the command:
