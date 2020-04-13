@@ -25,7 +25,7 @@ response: ABC Company
 
 #Building Dockerfile
 
-docker build -t macServer:lateat .
+docker build -t macServer:latest .
 
 # starting the image
 
