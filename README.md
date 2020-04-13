@@ -1,9 +1,6 @@
 # macserver
 
-Python modules needed:
-
-  1) Flask
-  2) pyopenssl
+Python modules needed: Flask
 
 macServer.py 
   Is the server which is implemented in Python and uses the Flask WebApplication framework. It implementes a local simple data dictionary of mac address and company names. It looks up this dict to get the info for the input mac address. The server entertains only SSL requests. share the cert.pem with the client applications. (key.pem is not to be shared)
